@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Revit Webcam</Text>
+    <Description>Display an image grabbed from internet or webcam in the Revit model, updating it regularly on the Idling event</Description>
+    <Assembly>RevitWebcam.dll</Assembly>
+    <FullClassName>RevitWebcam.Command</FullClassName>
+    <ClientId>9b7512de-d7da-4ac7-bdcd-90e4631ae59a</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
