@@ -88,7 +88,7 @@ namespace RevitWebcam
       const string styleName
         = "Revit Webcam Display Style";
 
-      // extract existing display styles with specific name
+      // Extract existing display styles with specific name
 
       FilteredElementCollector a
         = new FilteredElementCollector( doc );
@@ -101,16 +101,16 @@ namespace RevitWebcam
 
       if( 0 < elements.Count )
       {
-        // use the existing display style
+        // Use the existing display style
 
         analysisDisplayStyle = elements[0]
           as AnalysisDisplayStyle;
       }
       else
       {
-        // create new display style:
+        // Create new display style:
 
-        // coloured surface settings:
+        // Coloured surface settings:
 
         AnalysisDisplayColoredSurfaceSettings
           coloredSurfaceSettings
@@ -118,7 +118,7 @@ namespace RevitWebcam
 
         coloredSurfaceSettings.ShowGridLines = false;
 
-        // color settings:
+        // Colour settings:
 
         AnalysisDisplayColorSettings colorSettings
           = new AnalysisDisplayColorSettings();
@@ -126,7 +126,7 @@ namespace RevitWebcam
         colorSettings.MaxColor = new Color( 255, 255, 255 );
         colorSettings.MinColor = new Color( 0, 0, 0 );
 
-        // legend settings:
+        // Legend settings:
 
         AnalysisDisplayLegendSettings legendSettings
           = new AnalysisDisplayLegendSettings();
@@ -136,7 +136,7 @@ namespace RevitWebcam
         legendSettings.ShowDataDescription = false;
         legendSettings.ShowLegend = true;
 
-        //// extract legend text:
+        //// Extract legend text:
 
         //a = new FilteredElementCollector( doc );
 
