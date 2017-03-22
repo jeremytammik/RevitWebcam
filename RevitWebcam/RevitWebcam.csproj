@@ -110,8 +110,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="AfterClean">
-    <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2012\RevitWebcam.addin" />
-    <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2012\RevitWebcam.dll" />
+    <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2017\RevitWebcam.addin" />
+    <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2017\RevitWebcam.dll" />
   </Target>
   <PropertyGroup>
     <PostBuildEvent>copy "$(ProjectDir)RevitWebcam.addin" "$(AppData)\Autodesk\REVIT\Addins\2017"
