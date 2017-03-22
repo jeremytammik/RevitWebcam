@@ -32,5 +32,12 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion( "1.0.0.0" )]
-[assembly: AssemblyFileVersion( "1.0.0.0" )]
+//
+// History:
+//
+// 2017-03-22 0.0.0.0 original versions for Revit 2011, 2012 and 2013 using both Idling and external events
+// 2017-03-22 2013.0.0.0 latest version for Revit 2013 using external events
+// 2017-03-22 2017.0.0.0 flat migration from Revit 2013 to Revit 2017
+//
+[assembly: AssemblyVersion( "2017.0.0.0" )]
+[assembly: AssemblyFileVersion( "2017.0.0.0" )]
