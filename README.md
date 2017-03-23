@@ -10,6 +10,10 @@ Further reading:
 - [RevitWebcam 2012](http://thebuildingcoder.typepad.com/blog/2012/02/revit-webcam-2012.html)
 - [Idling enhancements and external events](http://thebuildingcoder.typepad.com/blog/2012/04/idling-enhancements-and-external-events.html)
 
+Here is RevitWebcam running in Revit 2017:
+
+![RevitWebcam in Revit 2017](img/webcam_on_wall_2017.png "RevitWebcam in Revit 2017")
+
 
 ## Author
 
