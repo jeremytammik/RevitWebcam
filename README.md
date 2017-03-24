@@ -1,7 +1,9 @@
 # RevitWebcam
 
-C# .NET Revit add-in to display a webcam image on a selected element face using the `Idling` event and AVF,
+C# .NET Revit add-in to display a live webcam image on a selected element face using an external event and AVF,
 the [analysis visualisation framework](http://thebuildingcoder.typepad.com/blog/avf).
+
+Before the introduction of external events, the `Idling` event was used.
 
 Further reading:
 
@@ -26,6 +28,7 @@ Jeremy Tammik,
 
 ## License
 
-This sample is licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+This sample is licensed under the terms of
+the [MIT License](http://opensource.org/licenses/MIT).
 Please see the [LICENSE](LICENSE) file for full details.
 
