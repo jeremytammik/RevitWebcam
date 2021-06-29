@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle( "Revit Add-In Title" )]
-[assembly: AssemblyDescription( "Revit Add-In Description" )]
+[assembly: AssemblyTitle( "RevitWebcam" )]
+[assembly: AssemblyDescription( "Revit Webcam Add-In" )]
 [assembly: AssemblyConfiguration( "" )]
 [assembly: AssemblyCompany( "Autodesk Inc." )]
-[assembly: AssemblyProduct( "Revit Add-In Wizard Template Application" )]
-[assembly: AssemblyCopyright( "Copyright 2012 © Jeremy Tammik Autodesk Inc." )]
+[assembly: AssemblyProduct( "Revit Webcam Add-In" )]
+[assembly: AssemblyCopyright( "Copyright 2012-2021 © Jeremy Tammik Autodesk Inc." )]
 [assembly: AssemblyTrademark( "" )]
 [assembly: AssemblyCulture( "" )]
 
@@ -39,5 +39,5 @@ using System.Runtime.InteropServices;
 // 2017-03-22 2013.0.0.0 latest version for Revit 2013 using external events
 // 2017-03-22 2017.0.0.0 flat migration from Revit 2013 to Revit 2017
 //
-[assembly: AssemblyVersion( "2017.0.0.0" )]
-[assembly: AssemblyFileVersion( "2017.0.0.0" )]
+[assembly: AssemblyVersion( "2020.0.0.0" )]
+[assembly: AssemblyFileVersion( "2020.0.0.0" )]
