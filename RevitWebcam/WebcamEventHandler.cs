@@ -45,8 +45,8 @@ namespace RevitWebcam
     /// <summary>
     /// JPEG image data source URL
     /// </summary>
-    const string _url = "http://vso.aa0.netvolante.jp/record/current.jpg?rand=232200";
-    //const string _url = "http://www.ggb.ch/webcam.php?e_1__getimage=1"; // matterhorn from zermatt
+    //const string _url = "http://vso.aa0.netvolante.jp/record/current.jpg?rand=232200";
+    const string _url = "http://www.ggb.ch/webcam.php?e_1__getimage=1"; // matterhorn from zermatt
 
     /// <summary>
     /// Requested image width.
