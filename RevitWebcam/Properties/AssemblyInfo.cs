@@ -40,6 +40,7 @@ using System.Runtime.InteropServices;
 // 2017-03-22 2017.0.0.0 flat migration from Revit 2013 to Revit 2017
 // 2021-06-29 2020.0.0.0 flat migration to Revit 2020, untested
 // 2021-06-29 2021.0.0.0 flat migration to Revit 2021, untested
+// 2021-06-29 2022.0.0.0 flat migration to Revit 2022, untested
 //
-[assembly: AssemblyVersion( "2021.0.0.0" )]
-[assembly: AssemblyFileVersion( "2021.0.0.0" )]
+[assembly: AssemblyVersion( "2022.0.0.0" )]
+[assembly: AssemblyFileVersion( "2022.0.0.0" )]
