@@ -6,7 +6,7 @@
     <Assembly>RevitWebcam.dll</Assembly>
     <FullClassName>RevitWebcam.Command</FullClassName>
     <ClientId>79143607-9111-4938-9a2e-91cbae58765e</ClientId>
-    <VendorId>TBC_</VendorId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
     <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
   </AddIn>
 </RevitAddIns>
