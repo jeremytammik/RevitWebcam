@@ -38,6 +38,8 @@ using System.Runtime.InteropServices;
 // 2017-03-22 0.0.0.0 original versions for Revit 2011, 2012 and 2013 using both Idling and external events
 // 2017-03-22 2013.0.0.0 latest version for Revit 2013 using external events
 // 2017-03-22 2017.0.0.0 flat migration from Revit 2013 to Revit 2017
+// 2021-06-29 2020.0.0.0 flat migration to Revit 2020, untested
+// 2021-06-29 2021.0.0.0 flat migration to Revit 2021, untested
 //
-[assembly: AssemblyVersion( "2020.0.0.0" )]
-[assembly: AssemblyFileVersion( "2020.0.0.0" )]
+[assembly: AssemblyVersion( "2021.0.0.0" )]
+[assembly: AssemblyFileVersion( "2021.0.0.0" )]
